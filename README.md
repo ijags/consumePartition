@@ -1,3 +1,5 @@
+Spring Cloud Stream
+
 This project works with publishPartition app.
 
 To run three consumerPartitions, try to run these commands in three different consoles:
