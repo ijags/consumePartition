@@ -1,0 +1,19 @@
+server:
+  port: 9093
+spring:
+  cloud:
+    stream:
+      bindings:
+        partitionOrders-in-0:
+          destination: orders_partition_channel
+          group: orders_queue    
+          consumer:
+            partitioned: true
+      instanceIndex: 2 
+      instanceCount: 3                      
+  rabbitmq:
+    username: guest
+    password: guest
+    host: 127.0.0.1
+    port: 5672
+
