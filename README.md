@@ -1,4 +1,4 @@
-Spring Cloud Stream
+Spring Cloud Stream - RabbitMQ
 
 This project works with publishPartition app.
 
