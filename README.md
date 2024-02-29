@@ -1,4 +1,6 @@
-Spring Cloud Stream - RabbitMQ
+# Consumers of Partitioned Rabbit queue
+
+## Spring Cloud Stream - RabbitMQ
 
 This project works with publishPartition app.
 
